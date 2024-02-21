@@ -8,7 +8,7 @@ export default function Home() {
       <Toaster />
 
       <section className="w-screen h-screen grid md:grid-cols-2 gap-6 bg-[#121212]">
-        <div className="md:h-full h-1/2 bg-[#121212] relative overflow-hidden md:order-1 order-2">
+        <div className="relative overflow-hidden md:order-1 order-2">
           <div 
             style={{
               backgroundImage: `url('/CreateRealityWBG.webp')`,
@@ -16,8 +16,9 @@ export default function Home() {
               backgroundSize: 'contain',
               backgroundRepeat: 'no-repeat',
               width: '100%',
-              height: '100%',
             }}
+            // Adjust the height here: larger on mobile, full height on desktop
+            className="h-96 md:h-full bg-[#121212]"
           ></div>
         </div>
 
