@@ -43,7 +43,7 @@ export default function EmailForm() {
           </label>
           <input
             autoComplete="email"
-            className="bg-chalk text-accent-500 block h-10 w-full appearance-none rounded-lg border border-zinc-300 px-4 py-2 placeholder-zinc-400 duration-200 focus:border-zinc-300 focus:outline-none focus:ring-zinc-300 sm:text-sm"
+            className="bg-chalk text-accent-500 block h-10 w-full appearance-none rounded-lg border border-gray-300 px-4 py-2 placeholder-gray-400 duration-200 focus:border-gray-300 focus:outline-none focus:ring-gray-300 sm:text-sm"
             id="email-address"
             name="email"
             placeholder="johndoe@exemple.com"
@@ -53,7 +53,7 @@ export default function EmailForm() {
             onChange={handleEmailChange}
           />
           <button
-            className="flex h-10 shrink-0 items-center justify-center gap-1 rounded-lg bg-[#000F2D] px-4 py-2 text-sm font-semibold text-white transition-all hover:bg-zinc-700"
+            className="flex h-10 shrink-0 items-center justify-center gap-1 rounded-lg bg-[#f4f8ff] px-4 py-2 text-sm font-semibold text-white transition-all hover:bg-gray-400"
             type="submit"
           >
             <span>Join the waitlist</span>
@@ -61,7 +61,7 @@ export default function EmailForm() {
         </div>
       </form>
 
-      <div className="flex items-start gap-2 text-gray-500">
+      <div className="flex items-start gap-2 text-gray-300">
         <InfoCircledIcon />
         <p className="text-xs -mt-[0.5] max-w-sm">
           No worries! your data is completely safe, will not be sold or shared, and will only be utilized to
