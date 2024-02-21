@@ -10,8 +10,8 @@ export default function Home() {
       <section className="w-screen h-dvh grid grid-cols-1 md:grid-cols-2 gap-6">
         <div className="md:h-full h-80 bg-[#C9F9D1] relative overflow-hidden">
           <Image
-            src="/mobile-app.png"
-            alt="Mobile App Screenshots"
+            src="/CreateRealityWBG.webp"
+            alt="Create Reality Image"
             fill
             className="object-contain mt-8 md:mt-24 px-14 object-bottom"
           />
