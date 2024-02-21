@@ -8,14 +8,17 @@ export default function Home() {
       <Toaster />
 
       <section className="w-screen h-screen grid grid-cols-1 md:grid-cols-2 gap-6">
-        <div className="md:h-full h-80 bg-[#121212] relative overflow-hidden">
-          <Image
-            src="/CreateRealityWBG.webp"
-            alt="Create Reality Image"
-            layout="fill"
-            objectFit="cover"
-            className="object-center"
-          />
+        <div className="md:h-full bg-[#121212] relative overflow-hidden">
+          <div 
+            style={{
+              backgroundImage: `url('/CreateRealityWBG.webp')`,
+              backgroundPosition: 'center',
+              backgroundSize: 'contain',
+              backgroundRepeat: 'no-repeat',
+              width: '100%',
+              height: '100%',
+            }}
+          ></div>
         </div>
 
         <main className="flex flex-col gap-8 mt-8 justify-center px-6 pb-10">
