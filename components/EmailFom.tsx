@@ -53,7 +53,7 @@ export default function EmailForm() {
             onChange={handleEmailChange}
           />
           <button
-            className="flex h-10 shrink-0 items-center justify-center gap-1 rounded-lg bg-[#FED545] px-4 py-2 text-sm font-semibold text-gray-800 transition-all hover:bg-yellow-600"
+            className="flex h-10 shrink-0 items-center justify-center gap-1 rounded-lg bg-[#FED545] px-4 py-2 text-sm font-semibold text-gray-800 transition-all hover:bg-yellow-500"
             type="submit"
           >
             <span>Join the waitlist</span>
