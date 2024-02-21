@@ -19,10 +19,10 @@ export default function Home() {
 
         <main className="flex flex-col gap-8 mt-8 justify-center px-6 pb-10">
           <h1 className="font-semibold tracking-tight text-zinc-900 text-3xl leading-tight md:text-4xl max-w-lg">
-            Join the conversation: Secure your spot on our Chat App!
+            Attain a truly great life - join the waitlist now
           </h1>
           <p className="text-gray-500">
-            Join the waitlist to be notified when our app is available!
+            To live a truly great life one must understand and utilise the Laws by which reality operates. Interested yet? Come.
           </p>
 
           <EmailForm />
