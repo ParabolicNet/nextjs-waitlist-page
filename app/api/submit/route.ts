@@ -1,8 +1,8 @@
 export async function POST(request: Request) {
   const { email } = await request.json();
 
-  console.log('LIST_ID:', process.env.LIST_ID);
-  console.log('EMAILOCTOPUS_KEY:', process.env.EMAILOCTOPUS_KEY);
+  console.log('LIST_ID', process.env.LIST_ID);
+  console.log('EMAILOCTOPUS_KEY', process.env.EMAILOCTOPUS_KEY);
 
   try {
     const response = await fetch(
