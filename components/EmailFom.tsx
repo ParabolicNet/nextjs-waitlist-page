@@ -24,10 +24,12 @@ export default function EmailForm() {
 
       if (response.ok) {
         setEmail("");
-        toast.success("Thank you for joining the waitlist!");
+        toast.success("Thank you for joining the waitlist!"), {
+          duration: 5000}
       } else {
         setEmail("");
-        toast.error("Oops! Something went wrong!");
+        toast.error("Oops! Something went wrong!"), {
+          duration: 5000}
       }
     } catch (err) {
       setEmail("");
