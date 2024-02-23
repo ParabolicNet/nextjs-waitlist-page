@@ -23,7 +23,7 @@ export default function Home() {
         </div>
 
         <main className="flex flex-col gap-8 mt-8 justify-center px-6 pb-10 md:order-2 order-1">
-          <h1 className="font-semibold tracking-tight bg-[#FED545] text-3xl leading-tight md:text-4xl max-w-lg pl-6">
+          <h1 className="font-semibold tracking-tight bg-[#FED545] text-3xl leading-tight md:text-4xl max-w-lg pl-6 pr-6">
             Live a truly great life - join the waitlist now
           </h1>
           <p className="text-gray-200">
